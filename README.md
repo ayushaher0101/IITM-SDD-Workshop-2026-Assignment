@@ -23,6 +23,8 @@ The app we built is a simple **web-based calculator** using HTML, CSS, and JavaS
 
 This version was built with a "design-first" mindset. The goal was to create something that looks and feels amazing before thinking about anything else.
 
+<img src="./assets/vibecoded_demo.webp" width="600" alt="Vibecoded Calculator Demo" />
+
 ### What makes it "Vibecoded"?
 - **Glassmorphism design** — The calculator has a frosted-glass look with a dark background and glowing light effects behind it.
 - **Neon accent colors** — The operator and equals buttons glow with a neon cyan/blue highlight.
@@ -40,6 +42,8 @@ The code was written in a single pass, starting with the visual design (CSS), th
 **Branch:** `sdd_coded_submission`
 
 This version was built using the **OpenSpec v1.2** framework. This means we wrote a formal specification document *before writing a single line of code*, and every feature in the app comes directly from that spec.
+
+<img src="./assets/openspec_demo.webp" width="600" alt="OpenSpec Calculator Demo" />
 
 ### What makes it "Spec-Driven"?
 - **Spec-first development** — The file `openspec/specs/calculator.md` defines what the app must do. The code follows the spec, not the other way around.
