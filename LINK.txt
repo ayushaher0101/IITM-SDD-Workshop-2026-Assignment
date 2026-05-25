@@ -1,0 +1,2 @@
+Live Preview Link (OpenSpec/SDD Calculator):
+https://htmlpreview.github.io/?https://github.com/ayushaher0101/IITM-SDD-Workshop-2026-Assignment/blob/sdd_coded_submission/index.html
