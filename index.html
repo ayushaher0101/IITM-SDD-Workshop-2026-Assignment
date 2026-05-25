@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Calculator | OpenSpec v1.2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="calculator">
+            <div class="display" aria-live="polite">
+                <div id="prev-operand" class="prev-display"></div>
+                <div id="curr-operand" class="curr-display">0</div>
+            </div>
+            <div class="btn-grid">
+                <button onclick="clearDisplay()" class="clear-btn" aria-label="Clear All">Clear</button>
+                <button onclick="deleteLast()" class="op-btn" aria-label="Delete last digit">DEL</button>
+                <button onclick="setOperation('/')" class="op-btn" aria-label="Divide">÷</button>
+                
+                <button onclick="appendNum('7')">7</button>
+                <button onclick="appendNum('8')">8</button>
+                <button onclick="appendNum('9')">9</button>
+                <button onclick="setOperation('*')" class="op-btn" aria-label="Multiply">×</button>
+                
+                <button onclick="appendNum('4')">4</button>
+                <button onclick="appendNum('5')">5</button>
+                <button onclick="appendNum('6')">6</button>
+                <button onclick="setOperation('-')" class="op-btn" aria-label="Subtract">-</button>
+                
+                <button onclick="appendNum('1')">1</button>
+                <button onclick="appendNum('2')">2</button>
+                <button onclick="appendNum('3')">3</button>
+                <button onclick="setOperation('+')" class="op-btn" aria-label="Add">+</button>
+                
+                <button onclick="appendNum('.')">.</button>
+                <button onclick="appendNum('0')">0</button>
+                <button onclick="calculate()" class="eq-btn" aria-label="Calculate">=</button>
+            </div>
+        </div>
+        
+        <!-- Enterprise feature: Simple Audit Trail -->
+        <div class="audit-trail">
+            <h3>Audit Log</h3>
+            <ul id="log-list">
+                <!-- Logs will appear here -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
