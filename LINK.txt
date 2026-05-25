@@ -1,0 +1,2 @@
+Live Preview Link (Vibecoded Calculator):
+https://htmlpreview.github.io/?https://github.com/ayushaher0101/IITM-SDD-Workshop-2026-Assignment/blob/vibe_coded_submission/index.html
